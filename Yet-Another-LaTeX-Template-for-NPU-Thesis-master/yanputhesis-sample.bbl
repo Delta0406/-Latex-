@@ -1,0 +1,62 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Shen et~al.(2019)Shen, Wang, Zhang, and
+  Zhang]{NWPUThesisLaTeXTemplate}
+Shen S, Wang Z, Zhang J, et~al.
+\newblock Yet another {{\LaTeX}} template for npu thesis\allowbreak[Z].
+\newblock Zenodo, 2019.
+\newblock \url{https://doi.org/10.5281/zenodo.4159248}.
+
+\bibitem[Shen(2017)]{MathSymbolsinLaTeXbypolossk}
+Shen S.
+\newblock Math symbols in {{\LaTeX}}\allowbreak[Z].
+\newblock Zenodo, 2017.
+\newblock \url{https://doi.org/10.5281/zenodo.4120375}.
+
+\bibitem[Knuth(1986)]{knuth1986the}
+Knuth D~E.
+\newblock The {{\TeX}}book\allowbreak[M].
+\newblock Addison-Wesley, 1986.
+
+\bibitem[Lamport(1989)]{lamport1989latex}
+Lamport L.
+\newblock {{\LaTeX}}: a document preparation system\allowbreak[M].
+\newblock Addison-Wesley Professional, 1989.
+
+\bibitem[Szegedy et~al.(2015)Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, and Rabinovich]{szegedy2015going}
+Szegedy C, Liu W, Jia Y, et~al.
+\newblock Going deeper with convolutions\allowbreak[J].
+\newblock Computer Vision and Pattern Recognition, 2015: 1-9.
+
+\bibitem[Shen et~al.(2021)Shen, Yang, Han, Cui, and Zhang]{shen2021peridynamic}
+Shen S, Yang Z, Han F, et~al.
+\newblock Peridynamic modeling with energy-based surface correction for
+  fracture simulation of random porous materials\allowbreak[J].
+\newblock Theoretical and Applied Fracture Mechanics, 2021, 114: 102987.
+
+\bibitem[{陈家忠}(2014)]{chen2014maiyuan}
+{陈家忠}.
+\newblock 脉源三支 强强融合——西北工业大学\allowbreak[J].
+\newblock 电子技术与软件工程, 2014\allowbreak (9): 15-16.
+
+\bibitem[Chen et~al.(2018)Chen, Chen, Zhang, Zhang, and
+  Zheng]{chen2018autonomous}
+Chen Y, Chen S, Zhang T, et~al.
+\newblock Autonomous vehicle testing and validation platform: Integrated
+  simulation system with hardware in the loop\allowbreak[C]. \allowbreak
+2018 IEEE Intelligent Vehicles Symposium (IV).
+\newblock IEEE, 2018: 949-956.
+
+\end{thebibliography}
